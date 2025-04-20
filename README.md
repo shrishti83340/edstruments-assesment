@@ -75,3 +75,23 @@ curl -X PUT http://localhost:8080/api/products/1 \
 
 Delete Product
 curl -X DELETE http://localhost:8080/api/products/1
+
+
+##  Question 2 – SQL and Database Design
+
+All tasks for *Question 2* have been completed and included in the project.
+
+📄 A file named *ecommerce_schema.sql* is located in the *root directory* of this project.  
+This file contains:
+- SQL CREATE TABLE statements for the required E-commerce schema (User, Product, Order, OrderItem)
+- Sample INSERT statements with example data
+- All SQL queries and logic as requested in the task prompt
+
+The schema reflects the following relationships:
+- A User can have many Orders
+- An Order can have many OrderItems
+- Each OrderItem is associated with one Product
+
+You can open and run the ecommerce_schema.sql file to view the complete database setup and query solutions.
+
+
