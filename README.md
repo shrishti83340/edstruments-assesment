@@ -19,8 +19,8 @@ A Spring Boot REST API built with **Java 17** and **Gradle** to manage products 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/product-api.git
-   cd product-api
+   git clone https://github.com/shrishti83340/edstruments-assesment.git
+   cd edstruments-assesment
    
 
 //Build the project using Gradle
@@ -33,6 +33,10 @@ A Spring Boot REST API built with **Java 17** and **Gradle** to manage products 
 The application will start at:
 http://localhost:8080
 
+if 8080 port is already in used then use below command
+
+    lsof -i :8080 //This will list the process using port 8080. The PID will be in the second column.
+    kill -9 12345
 
 application.properties (already configured)
 
